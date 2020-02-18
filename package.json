@@ -1,5 +1,6 @@
 {
   "name": "rva-aggregator",
+  "description": "The RVA Aggregator is a sort of HTML parser and editor.",
   "dependencies": {
     "@yarnpkg/pnpify": "^2.0.0-rc.18"
   },
