@@ -38,6 +38,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^13.7.2":
+  version: 13.7.2
+  resolution: "@types/node@npm:13.7.2"
+  checksum: a477a756bcc9b18ec5f5ac902e902ce2ceb01cfad1ff9211ea88227c5cc1f7074d42d91c002c4769f2cd075cd96f1e03f46369fe0e63076a149eec56fd47f5c6
+  languageName: node
+  linkType: hard
+
 "@types/prop-types@npm:*":
   version: 15.7.3
   resolution: "@types/prop-types@npm:15.7.3"
@@ -124,6 +131,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"arg@npm:^4.1.0":
+  version: 4.1.3
+  resolution: "arg@npm:4.1.3"
+  checksum: 1aef85b7cbe94efe7414db36f3ee972320f0e98bf5ca8b1ef0ce4b5d48a0d358f17b75962d428c7b4f46404205ce1ca3cd5fcf2c44f43208f2b1351be8117a1e
+  languageName: node
+  linkType: hard
+
 "argparse@npm:^1.0.7":
   version: 1.0.10
   resolution: "argparse@npm:1.0.10"
@@ -147,6 +161,13 @@ __metadata:
     balanced-match: ^1.0.0
     concat-map: 0.0.1
   checksum: 6bf044764309bad6d15c6eabc39e93701643b00192439251afe8b4e0c08f941b840f3c8844b163fc307111459121712fb74e40073ddffb0358f8a640f14ba7b1
+  languageName: node
+  linkType: hard
+
+"buffer-from@npm:^1.0.0":
+  version: 1.1.1
+  resolution: "buffer-from@npm:1.1.1"
+  checksum: b34c802232998fe342f64398c6bfbcd74c7e3d8115513ccc1c932c8ea0e0a205293847bc69be4c32ed9388ca151f635b005019e0bddbd80a5df34da537d722d6
   languageName: node
   linkType: hard
 
@@ -379,6 +400,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"make-error@npm:^1.1.1":
+  version: 1.3.5
+  resolution: "make-error@npm:1.3.5"
+  checksum: 93393c8e18caf7e82314636039d07a3541c73bfd5ddb6534f355c618927c8d0d000655981a773988deec14f7af95abe92c3654b880d9d1998abbe2ead4241d2c
+  languageName: node
+  linkType: hard
+
 "minimatch@npm:^3.0.4":
   version: 3.0.4
   resolution: "minimatch@npm:3.0.4"
@@ -483,9 +511,11 @@ resolve@^1.3.2:
   version: 0.0.0-use.local
   resolution: "rva-aggregator@workspace:."
   dependencies:
+    "@types/node": ^13.7.2
     "@types/react": ^16.9.20
     "@types/react-dom": ^16.9.5
     "@yarnpkg/pnpify": ^2.0.0-rc.18
+    ts-node: ^8.6.2
     tslint: ^6.0.0
     typescript: ^3.7.5
   languageName: unknown
@@ -513,6 +543,23 @@ resolve@^1.3.2:
   version: 1.0.0
   resolution: "shebang-regex@npm:1.0.0"
   checksum: fba9381f369e3e5e30e4e1353164243575a82f9b4b0010fc43dab33e7341d86032f9fdc6aa2d122f0737fce69a3c6544c295d9787aa4d522bc24ac1fcaac69d6
+  languageName: node
+  linkType: hard
+
+"source-map-support@npm:^0.5.6":
+  version: 0.5.16
+  resolution: "source-map-support@npm:0.5.16"
+  dependencies:
+    buffer-from: ^1.0.0
+    source-map: ^0.6.0
+  checksum: 8cbb70583ff6b74dabf1a37ffca840aed7e419e21fad3803485d4ac79af7cdb36819b271dc1a5703a4ee615487a03b2a13a052681d5d9d9050eda33b835e214c
+  languageName: node
+  linkType: hard
+
+"source-map@npm:^0.6.0":
+  version: 0.6.1
+  resolution: "source-map@npm:0.6.1"
+  checksum: fa17f30e37dfa8d8065fc98e8c51ae80d7050055f90dbd40e8644269bda04707386180c4c43af7104a29af56109663e994ccbc2cf766af01e915285c7f93cc40
   languageName: node
   linkType: hard
 
@@ -547,6 +594,24 @@ resolve@^1.3.2:
   dependencies:
     rimraf: ^2.6.3
   checksum: e3ddd8c38655efe4668abd1a103b61c78c28ae59e938fbb21537809cdf74f71fd5ccfe8f7e52be7386d78c091a1782ae950d4d020021c46f23fb28d021109b00
+  languageName: node
+  linkType: hard
+
+"ts-node@npm:^8.6.2":
+  version: 8.6.2
+  resolution: "ts-node@npm:8.6.2"
+  dependencies:
+    arg: ^4.1.0
+    diff: ^4.0.1
+    make-error: ^1.1.1
+    source-map-support: ^0.5.6
+    yn: 3.1.1
+  peerDependencies:
+    typescript: ">=2.7"
+  bin:
+    ts-node: dist/bin.js
+    ts-script: dist/script.js
+  checksum: 4f0f34835971565c95caa8c8c6da7524cd3ec930d9e6782c1a5c7daa776f58c496a85184ab61531608df772ee3cd772555986cd289024c942b5013ca2db86d68
   languageName: node
   linkType: hard
 
@@ -628,5 +693,12 @@ typescript@^3.7.5:
   version: 1.0.2
   resolution: "wrappy@npm:1.0.2"
   checksum: 0796da084f06bced2351fed9686a7211f4a4b774a7a3b64c7ead1b3bef162b1721f2a1d3fb1268bf2e848c9d743eca189c2a243159a1512d5dfab4b0d4dd60b5
+  languageName: node
+  linkType: hard
+
+"yn@npm:3.1.1":
+  version: 3.1.1
+  resolution: "yn@npm:3.1.1"
+  checksum: e06491e44f4f86b1ff20cb1105ae34c7a72fbf0128eb88210f40744ae70812dc2225553edc3b180ac820529e3da1446abff51f687717ae2878dd5ab060c7df1f
   languageName: node
   linkType: hard

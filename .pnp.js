@@ -33,8 +33,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     "locationLengthData": [
       139,
       110,
+      109,
       106,
       96,
+      93,
       92,
       91,
       90,
@@ -45,6 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       84,
       82,
       80,
+      79,
       78,
       76,
       75,
@@ -58,6 +61,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       66,
       64,
       62,
+      60,
       2
     ],
     "packageRegistryData": [
@@ -65,9 +69,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["@types/node", "npm:13.7.2"],
             ["@types/react", "npm:16.9.20"],
             ["@types/react-dom", "npm:16.9.5"],
             ["@yarnpkg/pnpify", "virtual:70d73bc84be22bbea896ad4cbc031f88249efc762312d04abb645ef8e103db7d72776ec3556732424f0b1fb77cbc2e231ec384705df5d7f0bac5eca057d59b18#npm:2.0.0-rc.18"],
+            ["ts-node", "virtual:70d73bc84be22bbea896ad4cbc031f88249efc762312d04abb645ef8e103db7d72776ec3556732424f0b1fb77cbc2e231ec384705df5d7f0bac5eca057d59b18#npm:8.6.2"],
             ["tslint", "virtual:70d73bc84be22bbea896ad4cbc031f88249efc762312d04abb645ef8e103db7d72776ec3556732424f0b1fb77cbc2e231ec384705df5d7f0bac5eca057d59b18#npm:6.0.0"],
             ["typescript", "patch:typescript@npm%3A3.7.5#builtin<compat/typescript>::version=3.7.5&hash=226bd1"]
           ],
@@ -110,6 +116,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-emscripten-npm-1.39.2-23084018a5-1.zip/node_modules/@types/emscripten/",
           "packageDependencies": [
             ["@types/emscripten", "npm:1.39.2"]
+          ],
+          "linkType": "HARD"
+        }]
+      ]],
+      ["@types/node", [
+        ["npm:13.7.2", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-13.7.2-83da2dd0d0-1.zip/node_modules/@types/node/",
+          "packageDependencies": [
+            ["@types/node", "npm:13.7.2"]
           ],
           "linkType": "HARD"
         }]
@@ -203,6 +218,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"
         }]
       ]],
+      ["arg", [
+        ["npm:4.1.3", {
+          "packageLocation": "./.yarn/cache/arg-npm-4.1.3-1748b966a8-1.zip/node_modules/arg/",
+          "packageDependencies": [
+            ["arg", "npm:4.1.3"]
+          ],
+          "linkType": "HARD"
+        }]
+      ]],
       ["argparse", [
         ["npm:1.0.10", {
           "packageLocation": "./.yarn/cache/argparse-npm-1.0.10-528934e59d-1.zip/node_modules/argparse/",
@@ -229,6 +253,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["brace-expansion", "npm:1.1.11"],
             ["balanced-match", "npm:1.0.0"],
             ["concat-map", "npm:0.0.1"]
+          ],
+          "linkType": "HARD"
+        }]
+      ]],
+      ["buffer-from", [
+        ["npm:1.1.1", {
+          "packageLocation": "./.yarn/cache/buffer-from-npm-1.1.1-22917b8ed8-1.zip/node_modules/buffer-from/",
+          "packageDependencies": [
+            ["buffer-from", "npm:1.1.1"]
           ],
           "linkType": "HARD"
         }]
@@ -494,6 +527,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"
         }]
       ]],
+      ["make-error", [
+        ["npm:1.3.5", {
+          "packageLocation": "./.yarn/cache/make-error-npm-1.3.5-be4b06e941-1.zip/node_modules/make-error/",
+          "packageDependencies": [
+            ["make-error", "npm:1.3.5"]
+          ],
+          "linkType": "HARD"
+        }]
+      ]],
       ["minimatch", [
         ["npm:3.0.4", {
           "packageLocation": "./.yarn/cache/minimatch-npm-3.0.4-6e76f51c23-1.zip/node_modules/minimatch/",
@@ -603,9 +645,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["rva-aggregator", "workspace:."],
+            ["@types/node", "npm:13.7.2"],
             ["@types/react", "npm:16.9.20"],
             ["@types/react-dom", "npm:16.9.5"],
             ["@yarnpkg/pnpify", "virtual:70d73bc84be22bbea896ad4cbc031f88249efc762312d04abb645ef8e103db7d72776ec3556732424f0b1fb77cbc2e231ec384705df5d7f0bac5eca057d59b18#npm:2.0.0-rc.18"],
+            ["ts-node", "virtual:70d73bc84be22bbea896ad4cbc031f88249efc762312d04abb645ef8e103db7d72776ec3556732424f0b1fb77cbc2e231ec384705df5d7f0bac5eca057d59b18#npm:8.6.2"],
             ["tslint", "virtual:70d73bc84be22bbea896ad4cbc031f88249efc762312d04abb645ef8e103db7d72776ec3556732424f0b1fb77cbc2e231ec384705df5d7f0bac5eca057d59b18#npm:6.0.0"],
             ["typescript", "patch:typescript@npm%3A3.7.5#builtin<compat/typescript>::version=3.7.5&hash=226bd1"]
           ],
@@ -636,6 +680,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/shebang-regex-npm-1.0.0-c3612b74e9-1.zip/node_modules/shebang-regex/",
           "packageDependencies": [
             ["shebang-regex", "npm:1.0.0"]
+          ],
+          "linkType": "HARD"
+        }]
+      ]],
+      ["source-map", [
+        ["npm:0.6.1", {
+          "packageLocation": "./.yarn/cache/source-map-npm-0.6.1-1a3621db16-1.zip/node_modules/source-map/",
+          "packageDependencies": [
+            ["source-map", "npm:0.6.1"]
+          ],
+          "linkType": "HARD"
+        }]
+      ]],
+      ["source-map-support", [
+        ["npm:0.5.16", {
+          "packageLocation": "./.yarn/cache/source-map-support-npm-0.5.16-cbb8823949-1.zip/node_modules/source-map-support/",
+          "packageDependencies": [
+            ["source-map-support", "npm:0.5.16"],
+            ["buffer-from", "npm:1.1.1"],
+            ["source-map", "npm:0.6.1"]
           ],
           "linkType": "HARD"
         }]
@@ -673,6 +737,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["tmp", "npm:0.1.0"],
             ["rimraf", "npm:2.7.1"]
+          ],
+          "linkType": "HARD"
+        }]
+      ]],
+      ["ts-node", [
+        ["virtual:70d73bc84be22bbea896ad4cbc031f88249efc762312d04abb645ef8e103db7d72776ec3556732424f0b1fb77cbc2e231ec384705df5d7f0bac5eca057d59b18#npm:8.6.2", {
+          "packageLocation": "./.yarn/$$virtual/ts-node-virtual-b58e945995/0/cache/ts-node-npm-8.6.2-c2717958b1-1.zip/node_modules/ts-node/",
+          "packageDependencies": [
+            ["ts-node", "virtual:70d73bc84be22bbea896ad4cbc031f88249efc762312d04abb645ef8e103db7d72776ec3556732424f0b1fb77cbc2e231ec384705df5d7f0bac5eca057d59b18#npm:8.6.2"],
+            ["arg", "npm:4.1.3"],
+            ["diff", "npm:4.0.2"],
+            ["make-error", "npm:1.3.5"],
+            ["source-map-support", "npm:0.5.16"],
+            ["typescript", "patch:typescript@npm%3A3.7.5#builtin<compat/typescript>::version=3.7.5&hash=226bd1"],
+            ["yn", "npm:3.1.1"]
+          ],
+          "packagePeers": [
+            "typescript"
           ],
           "linkType": "HARD"
         }]
@@ -750,6 +832,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/wrappy-npm-1.0.2-916de4d4b3-1.zip/node_modules/wrappy/",
           "packageDependencies": [
             ["wrappy", "npm:1.0.2"]
+          ],
+          "linkType": "HARD"
+        }]
+      ]],
+      ["yn", [
+        ["npm:3.1.1", {
+          "packageLocation": "./.yarn/cache/yn-npm-3.1.1-8ad4259784-1.zip/node_modules/yn/",
+          "packageDependencies": [
+            ["yn", "npm:3.1.1"]
           ],
           "linkType": "HARD"
         }]

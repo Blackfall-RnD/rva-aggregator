@@ -2,7 +2,9 @@
   "name": "rva-aggregator",
   "description": "The RVA Aggregator is a sort of HTML parser and editor.",
   "dependencies": {
-    "@yarnpkg/pnpify": "^2.0.0-rc.18"
+    "@types/node": "^13.7.2",
+    "@yarnpkg/pnpify": "^2.0.0-rc.18",
+    "ts-node": "^8.6.2"
   },
   "devDependencies": {
     "@types/react": "^16.9.20",
