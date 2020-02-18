@@ -1,0 +1,12 @@
+{
+  "name": "rva-aggregator",
+  "dependencies": {
+    "@yarnpkg/pnpify": "^2.0.0-rc.18"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.20",
+    "@types/react-dom": "^16.9.5",
+    "tslint": "^6.0.0",
+    "typescript": "^3.7.5"
+  }
+}
