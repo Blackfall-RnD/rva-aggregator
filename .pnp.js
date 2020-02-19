@@ -73,6 +73,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:16.9.20"],
             ["@types/react-dom", "npm:16.9.5"],
             ["@yarnpkg/pnpify", "virtual:70d73bc84be22bbea896ad4cbc031f88249efc762312d04abb645ef8e103db7d72776ec3556732424f0b1fb77cbc2e231ec384705df5d7f0bac5eca057d59b18#npm:2.0.0-rc.18"],
+            ["chalk", "npm:3.0.0"],
+            ["rimraf", "npm:3.0.2"],
             ["ts-node", "virtual:70d73bc84be22bbea896ad4cbc031f88249efc762312d04abb645ef8e103db7d72776ec3556732424f0b1fb77cbc2e231ec384705df5d7f0bac5eca057d59b18#npm:8.6.2"],
             ["tslint", "virtual:70d73bc84be22bbea896ad4cbc031f88249efc762312d04abb645ef8e103db7d72776ec3556732424f0b1fb77cbc2e231ec384705df5d7f0bac5eca057d59b18#npm:6.0.0"],
             ["typescript", "patch:typescript@npm%3A3.7.5#builtin<compat/typescript>::version=3.7.5&hash=226bd1"]
@@ -638,6 +640,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["glob", "npm:7.1.6"]
           ],
           "linkType": "HARD"
+        }],
+        ["npm:3.0.2", {
+          "packageLocation": "./.yarn/cache/rimraf-npm-3.0.2-2cb7dac69a-1.zip/node_modules/rimraf/",
+          "packageDependencies": [
+            ["rimraf", "npm:3.0.2"],
+            ["glob", "npm:7.1.6"]
+          ],
+          "linkType": "HARD"
         }]
       ]],
       ["rva-aggregator", [
@@ -649,6 +659,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:16.9.20"],
             ["@types/react-dom", "npm:16.9.5"],
             ["@yarnpkg/pnpify", "virtual:70d73bc84be22bbea896ad4cbc031f88249efc762312d04abb645ef8e103db7d72776ec3556732424f0b1fb77cbc2e231ec384705df5d7f0bac5eca057d59b18#npm:2.0.0-rc.18"],
+            ["chalk", "npm:3.0.0"],
+            ["rimraf", "npm:3.0.2"],
             ["ts-node", "virtual:70d73bc84be22bbea896ad4cbc031f88249efc762312d04abb645ef8e103db7d72776ec3556732424f0b1fb77cbc2e231ec384705df5d7f0bac5eca057d59b18#npm:8.6.2"],
             ["tslint", "virtual:70d73bc84be22bbea896ad4cbc031f88249efc762312d04abb645ef8e103db7d72776ec3556732424f0b1fb77cbc2e231ec384705df5d7f0bac5eca057d59b18#npm:6.0.0"],
             ["typescript", "patch:typescript@npm%3A3.7.5#builtin<compat/typescript>::version=3.7.5&hash=226bd1"]

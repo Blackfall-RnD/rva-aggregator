@@ -1,9 +1,17 @@
 {
   "name": "rva-aggregator",
   "description": "The RVA Aggregator is a sort of HTML parser and editor.",
+  "scripts": {
+    "rvaa": "node ./out/index.js",
+    "build": "yarn tsc --build",
+    "build:force": "yarn tsc --build --force",
+    "clean": "yarn rimraf -r ./out"
+  },
   "dependencies": {
     "@types/node": "^13.7.2",
     "@yarnpkg/pnpify": "^2.0.0-rc.18",
+    "chalk": "^3.0.0",
+    "rimraf": "^3.0.2",
     "ts-node": "^8.6.2"
   },
   "devDependencies": {
